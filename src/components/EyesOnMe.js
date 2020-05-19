@@ -6,8 +6,7 @@ export default class EyesOnMe extends Component {
   
   render(){
      return (
-       <button onFocus={this.focusing}>Focus</button>
-       <button onBlur={this.bluring}>Blur</button>
+       <button onFocus={this.focusing} onBlur={this.bluring}>Focus</button>
        )
    }
   bluring = () => {
