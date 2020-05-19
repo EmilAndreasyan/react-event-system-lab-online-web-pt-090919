@@ -8,11 +8,7 @@ export default class EyesOnMe extends Component {
        <button onFocus={this.focusing} onBlur={this.bluring}>Focus</button>
        )
    }
-  bluring = () => {
-    console.log("Good!")
-  }
+  bluring = () => console.log("Good!")
   
-  focusing = () => {
-    console.log("Hey! Eyes on me!")
-  }
+  focusing = () => console.log("Hey! Eyes on me!")
 }
