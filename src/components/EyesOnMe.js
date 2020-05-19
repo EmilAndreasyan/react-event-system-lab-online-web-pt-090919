@@ -15,4 +15,4 @@ export default class EyesOnMe extends Component {
   focusing = () => {
     console.log("Hey! Eyes on me!")
   }
-
+}
