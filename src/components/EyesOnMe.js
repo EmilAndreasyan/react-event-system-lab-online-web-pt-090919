@@ -1,5 +1,4 @@
 // Code EyesOnMe Component Here
-<<<<<<< HEAD
 import React, {Component} from 'react'
 
 export default class EyesOnMe extends Component {
@@ -16,11 +15,4 @@ export default class EyesOnMe extends Component {
   focusing = () => {
     console.log("Hey! Eyes on me!")
   }
-  
-=======
-import React {Component} from 'react'
 
-export default class EyesOnMe extends Component {
-  
->>>>>>> a69363db702ecb7e65e08ed28e33fccc2f5f100a
-}
